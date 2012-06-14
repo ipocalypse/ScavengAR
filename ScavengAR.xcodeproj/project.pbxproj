@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865623A51589AC3A00105D65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865623A41589AC3A00105D65 /* UIKit.framework */; };
+		865623A71589AC3A00105D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865623A61589AC3A00105D65 /* Foundation.framework */; };
+		865623A91589AC3A00105D65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865623A81589AC3A00105D65 /* CoreGraphics.framework */; };
+		865623AF1589AC3A00105D65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 865623AD1589AC3A00105D65 /* InfoPlist.strings */; };
+		865623B11589AC3A00105D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 865623B01589AC3A00105D65 /* main.m */; };
+		865623B51589AC3A00105D65 /* ScavengARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865623B41589AC3A00105D65 /* ScavengARAppDelegate.m */; };
+		865623B81589AC3A00105D65 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865623B61589AC3A00105D65 /* MainStoryboard.storyboard */; };
+		865623BB1589AC3A00105D65 /* ScavengARFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865623BA1589AC3A00105D65 /* ScavengARFirstViewController.m */; };
+		865623BD1589AC3A00105D65 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 865623BC1589AC3A00105D65 /* first.png */; };
+		865623BF1589AC3A00105D65 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865623BE1589AC3A00105D65 /* first@2x.png */; };
+		865623C21589AC3A00105D65 /* ScavengARSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865623C11589AC3A00105D65 /* ScavengARSecondViewController.m */; };
+		865623C41589AC3A00105D65 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 865623C31589AC3A00105D65 /* second.png */; };
+		865623C61589AC3A00105D65 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865623C51589AC3A00105D65 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		865623A01589AC3A00105D65 /* ScavengAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScavengAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865623A41589AC3A00105D65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		865623A61589AC3A00105D65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		865623A81589AC3A00105D65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		865623AC1589AC3A00105D65 /* ScavengAR-Info.plist */ = {isa = PBXFileReference; path = "ScavengAR-Info.plist"; sourceTree = "<group>"; };
+		865623AE1589AC3A00105D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		865623B01589AC3A00105D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		865623B21589AC3A00105D65 /* ScavengAR-Prefix.pch */ = {isa = PBXFileReference; path = "ScavengAR-Prefix.pch"; sourceTree = "<group>"; };
+		865623B31589AC3A00105D65 /* ScavengARAppDelegate.h */ = {isa = PBXFileReference; path = ScavengARAppDelegate.h; sourceTree = "<group>"; };
+		865623B41589AC3A00105D65 /* ScavengARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScavengARAppDelegate.m; sourceTree = "<group>"; };
+		865623B71589AC3A00105D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		865623B91589AC3A00105D65 /* ScavengARFirstViewController.h */ = {isa = PBXFileReference; path = ScavengARFirstViewController.h; sourceTree = "<group>"; };
+		865623BA1589AC3A00105D65 /* ScavengARFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScavengARFirstViewController.m; sourceTree = "<group>"; };
+		865623BC1589AC3A00105D65 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		865623BE1589AC3A00105D65 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		865623C01589AC3A00105D65 /* ScavengARSecondViewController.h */ = {isa = PBXFileReference; path = ScavengARSecondViewController.h; sourceTree = "<group>"; };
+		865623C11589AC3A00105D65 /* ScavengARSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScavengARSecondViewController.m; sourceTree = "<group>"; };
+		865623C31589AC3A00105D65 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		865623C51589AC3A00105D65 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8656239D1589AC3A00105D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865623A51589AC3A00105D65 /* UIKit.framework in Frameworks */,
+				865623A71589AC3A00105D65 /* Foundation.framework in Frameworks */,
+				865623A91589AC3A00105D65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865623951589AC3A00105D65 = {
+			isa = PBXGroup;
+			children = (
+				865623AA1589AC3A00105D65 /* ScavengAR */,
+				865623A31589AC3A00105D65 /* Frameworks */,
+				865623A11589AC3A00105D65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865623A11589AC3A00105D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865623A01589AC3A00105D65 /* ScavengAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865623A31589AC3A00105D65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				865623A41589AC3A00105D65 /* UIKit.framework */,
+				865623A61589AC3A00105D65 /* Foundation.framework */,
+				865623A81589AC3A00105D65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		865623AA1589AC3A00105D65 /* ScavengAR */ = {
+			isa = PBXGroup;
+			children = (
+				865623B31589AC3A00105D65 /* ScavengARAppDelegate.h */,
+				865623B41589AC3A00105D65 /* ScavengARAppDelegate.m */,
+				865623B61589AC3A00105D65 /* MainStoryboard.storyboard */,
+				865623B91589AC3A00105D65 /* ScavengARFirstViewController.h */,
+				865623BA1589AC3A00105D65 /* ScavengARFirstViewController.m */,
+				865623BC1589AC3A00105D65 /* first.png */,
+				865623BE1589AC3A00105D65 /* first@2x.png */,
+				865623C01589AC3A00105D65 /* ScavengARSecondViewController.h */,
+				865623C11589AC3A00105D65 /* ScavengARSecondViewController.m */,
+				865623C31589AC3A00105D65 /* second.png */,
+				865623C51589AC3A00105D65 /* second@2x.png */,
+				865623AB1589AC3A00105D65 /* Supporting Files */,
+			);
+			path = ScavengAR;
+			sourceTree = "<group>";
+		};
+		865623AB1589AC3A00105D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				865623AC1589AC3A00105D65 /* ScavengAR-Info.plist */,
+				865623AD1589AC3A00105D65 /* InfoPlist.strings */,
+				865623B01589AC3A00105D65 /* main.m */,
+				865623B21589AC3A00105D65 /* ScavengAR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8656239F1589AC3A00105D65 /* ScavengAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865623C91589AC3A00105D65 /* Build configuration list for PBXNativeTarget "ScavengAR" */;
+			buildPhases = (
+				8656239C1589AC3A00105D65 /* Sources */,
+				8656239D1589AC3A00105D65 /* Frameworks */,
+				8656239E1589AC3A00105D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScavengAR;
+			productName = ScavengAR;
+			productReference = 865623A01589AC3A00105D65 /* ScavengAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865623971589AC3A00105D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8656239A1589AC3A00105D65 /* Build configuration list for PBXProject "ScavengAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 865623951589AC3A00105D65;
+			productRefGroup = 865623A11589AC3A00105D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8656239F1589AC3A00105D65 /* ScavengAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8656239E1589AC3A00105D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865623AF1589AC3A00105D65 /* InfoPlist.strings in Resources */,
+				865623B81589AC3A00105D65 /* MainStoryboard.storyboard in Resources */,
+				865623BD1589AC3A00105D65 /* first.png in Resources */,
+				865623BF1589AC3A00105D65 /* first@2x.png in Resources */,
+				865623C41589AC3A00105D65 /* second.png in Resources */,
+				865623C61589AC3A00105D65 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8656239C1589AC3A00105D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865623B11589AC3A00105D65 /* main.m in Sources */,
+				865623B51589AC3A00105D65 /* ScavengARAppDelegate.m in Sources */,
+				865623BB1589AC3A00105D65 /* ScavengARFirstViewController.m in Sources */,
+				865623C21589AC3A00105D65 /* ScavengARSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		865623AD1589AC3A00105D65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865623AE1589AC3A00105D65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		865623B61589AC3A00105D65 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865623B71589AC3A00105D65 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865623C71589AC3A00105D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		865623C81589AC3A00105D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865623CA1589AC3A00105D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScavengAR/ScavengAR-Prefix.pch";
+				INFOPLIST_FILE = "ScavengAR/ScavengAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		865623CB1589AC3A00105D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScavengAR/ScavengAR-Prefix.pch";
+				INFOPLIST_FILE = "ScavengAR/ScavengAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8656239A1589AC3A00105D65 /* Build configuration list for PBXProject "ScavengAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865623C71589AC3A00105D65 /* Debug */,
+				865623C81589AC3A00105D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865623C91589AC3A00105D65 /* Build configuration list for PBXNativeTarget "ScavengAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865623CA1589AC3A00105D65 /* Debug */,
+				865623CB1589AC3A00105D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865623971589AC3A00105D65 /* Project object */;
+}
